@@ -1,0 +1,49 @@
+body {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    right,
+    rgb(102, 93, 104),
+    rgb(19, 195, 226)
+  );
+}
+.card-header {
+  border-bottom: none !important;
+}
+.note-body {
+  background:rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.note-body .text {
+  background-image: url("./assets/notebook.jpg");
+  border-radius: 10px;
+}
+.note-body .count {
+  font-family: initial;
+  margin: 0;
+  color: #fff;
+}
+.note-save-btn {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+.note-save-btn .btn {
+  border-radius: 25px;
+}
+.remaining-count {
+  text-align: right;
+}
+.all-notes{
+  font-family: initial;
+  border-radius: 15px !important;
+}
+.title {
+  margin-top: 5px;
+  float: left;
+}
+.date {
+  float: right;
+}
+.scroll {
+  overflow: scroll;
+  height: 575px;
+}
